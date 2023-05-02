@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./scss/style.css">
+    <script src="https://kit.fontawesome.com/55526c5e28.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container-fluid px-0">
+        <div class="row ">
+            <div class="col-12 p-0">
+                <!-- Header code goes here -->
+                <nav class="navbar navbar-expand-lg header bg-dark">
+
+                    <div class="container-fluid">
+                        <a class="navbar-brand mx-5 text-white" href="#">Portfolio</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <i class="fa fa-bars fa-lg text-light"></i>
+
+
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav ms-auto me-auto mb-2 mb-lg-0 mx-5">
+                                <li class="nav-item">
+                                    <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-white" href="#about">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-white" href="#projects">Projects</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-white" href="#contact">Contact</a>
+                                </li>
+                            </ul>
+                            <div class="mx-5 ">
+                                <a href="https://github.com/Swaroopaamruthwar" target="_blank"> <i
+                                        class="fa-brands fa-linkedin px-3 fs-3 text-white"></i></a>
+
+                                <a href="https://www.linkedin.com/in/swaroopa-amruthwar-a7852219b/" target="_blank"><i
+                                        class="fa-brands fa-github fs-3 text-white"></i></a>
+
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <div class="row ">
+            <div class="col-12 p-0 hero-container">
+                <div class="hero-section d-flex align-items-center flex-column hero">
+                    <h1>SWAROOPA AMRUTHWAR</h1>
+                    <h2 class="text-white">I'm a Full stack developer
+                    </h2>
+                </div>
+                <div class="img-container">
+                    <div class="img-card">
+                        <div class="card-info">
+                            <img src="./assets/pic.jpg" alt="" class="image title">
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="icons">
+                    <div class="icon-box first-icon"><a href="https://github.com/Swaroopaamruthwar" target="_blank"> <i
+                                class="fa-brands fa-linkedin px-3 fs-3 text-white"></i></a></div>
+
+                    <div class="icon-box second-icon">
+
+                        <a href="https://www.linkedin.com/in/swaroopa-amruthwar-a7852219b/" target="_blank"><i
+                                class="fa-brands fa-github fs-3 text-white"></i></a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="about-container">
+            <div class="row" id="about">
+                <div class="col-12 p-0">
+                    <div class="about-section d-flex flip-container flip">
+                        <div class="pic front"><img src="./assets/pic.jpg" alt=""></div>
+                        <div class="text">
+                            <h2>About Me</h2>
+                            <p>I like to define myself as a multidisciplinary, results-oriented and passionate designer.
+                                I am experienced in FULL STACK TECHNOLOGIES.I'm happy you stopped by!
+                                See what I can do for you, check out my portfolio and get in touch with me.
+                            </p>
+                            <button>
+                                <a href="../assets/SWAROOPA.pdf" download>Resume CV</a>
+                            </button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row card-box" id="projects">
+            <div class="col-12 p-15 card-container">
+                <div class="card " style="width: 18rem; height:21rem;">
+
+                    <img src="./assets//card1.png" class="card-img-top card-img" alt="..."
+                        style="width: 18rem; height:10rem;">
+                    <div class="card-body" style="width: 18rem; height:10rem;">
+                        <h5 class="card-title">Ecommerce App</h5>
+                        <p class="card-text">ecommerce weapplication using react and nodejs and payment gateway stripe
+                        </p>
+                        <div class="link">
+                            <a href="https://github.com/Swaroopaamruthwar/ecommerce-application-with-stripe"
+                                class="btn btn-primary btn-color"><i class="fas fa-arrow-up-right-from-square"></i>
+                                Github</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem; height:21rem;">
+                    <img src="./assets//card2.png" class="card-img-top card-img" alt="..."
+                        style="width: 18rem; height:10rem;">
+                    <div class="card-body" style="width: 18rem; height:10rem;">
+                        <h5 class="card-title">Instagram clone</h5>
+                        <p class="card-text">backend NodeJs and Developed SignUp,Login,createPost,showPosts
+                            components using React
+
+                        </p>
+                        <div class="link">
+                            <a href="#" class="btn btn-primary btn-color"><i
+                                    class="fas fa-arrow-up-right-from-square"></i>
+                                Github</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem; height:21rem;">
+                    <img src="./assets//card3.png" class="card-img-top card-img" alt="..."
+                        style="width: 18rem; height:10rem;">
+                    <div class="card-body" style="width: 18rem; height:10rem;">
+                        <h5 class="card-title">
+                            Multi-step-form-app</h5>
+                        <p class="card-text">Multi-step-form web application design and build using html css and
+                            javascript.</p>
+                        <div class="link">
+                            <a href="#" class="btn btn-primary btn-color"><i
+                                    class="fas fa-arrow-up-right-from-square"></i>
+                                Github</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem; height:21rem;">
+                    <img src="./assets/card4.png" class="card-img-top card-img" alt="..."
+                        style="width: 18rem; height:10rem;">
+                    <div class="card-body" style="width: 18rem; height:10rem;">
+                        <h5 class="card-title">Laundry Services</h5>
+                        <p class="card-text">Header ,Footer,Login,Signup,Create Orders,summary page,past orders page
+                            with React,Nodejs</p>
+                        <div class="link">
+                            <a href="#" class="btn btn-primary btn-color"><i
+                                    class="fas fa-arrow-up-right-from-square"></i>
+                                Github</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container contact-form" id="contact">
+            <div class="contact-image">
+                <img src="https://image.ibb.co/kUagtU/rocket_contact.png" alt="rocket_contact" />
+            </div>
+            <form action="#" method="post" id="myForm">
+                <h3>Drop Us a Message</h3>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <input type="text" name="txtName" class="form-control" placeholder="Your Name *" value="" />
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="txtEmail" class="form-control" placeholder="Your Email *"
+                                value="" />
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="txtPhone" class="form-control" placeholder="Your Phone Number *"
+                                value="" />
+                        </div>
+                        <div class="form-group">
+                            <input type="submit" name="btnSubmit" class="btnContact" value="Send Message" />
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <textarea name="txtMsg" class="form-control" placeholder="Your Message *"
+                                style="width: 100%; height: 150px;"></textarea>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+    </div>
+    <div class="arrow-container">
+        <i class=" fas fa-arrow-up"></i>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+    <script src="./index.js"></script>
+</body>
+
+</html>
